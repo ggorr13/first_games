@@ -20,7 +20,7 @@ let checkDead = setInterval(function (){
         blockLeft  = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
 
 
-    if (blockLeft < 20 && blockLeft > -20 && characterTop >= 130){
+    if (blockLeft < 50 && blockLeft > -20 && characterTop >= 130){
         block.style.animation = "none";
         block.style.display = "none";
 

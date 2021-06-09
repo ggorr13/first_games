@@ -3,14 +3,18 @@
     margin: 0;
 }
 #game{
-    width: 500px;
-    height: 200px;
+    width: 900px;
+    height: 300px;
     border:1px solid black;
+    background-image: url("https://ic.pics.livejournal.com/rhunwolf/5732212/937222/937222_original.gif");
+    background-size:cover;
 }
 #character{
-    width: 20px;
-    height: 50px;
-    background-color: red;
+    width: 120px;
+    height: 110px;
+    background-size:cover;
+    background-position: center;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/016/136/150/original/paulo-silva-ninja-run.gif?1551046441");
     position: relative;
     top: 150px;
 }
@@ -24,16 +28,18 @@
     100%{top: 150px}
 }
 #block{
-    width: 20px;
-    height: 20px;
-    background-color: blue;
+    width: 50px;
+    height: 60px;
+    background-image: url("https://i.gifer.com/5Mz4.gif");
+    background-size:cover;
+    background-position: center;
     position: relative;
-    top: 130px;
+    top: 100px;
     left: 480px;
     animation: block 1s infinite;
 }
 
 @keyframes block {
-    0%{left: 480px;}
+    0%{left: 780px;}
     100%{left: -40px;}
 }
